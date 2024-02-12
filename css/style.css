@@ -1,93 +1,106 @@
-*{
+* {
     box-sizing: border-box;
 }
-.container{
+
+.container {
     max-width: 1220px;
     padding: 0 10px;
     margin: 0 auto;
 }
-ul{
+
+ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
-li{
+
+li {
     padding-left: 0;
 }
-.header_inner{
+
+.header_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.menu{
+
+.menu {
     margin-right: 70px;
 }
-body{
+
+body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
     color: #131313;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-p{
+
+p {
     margin: 0;
 }
-.menu__list{
+
+.menu__list {
     display: flex;
 }
 
-.menu__items + .menu__items{
-padding-left: 10px;
+.menu__items+.menu__items {
+    padding-left: 10px;
 
 }
 
-.menu__link{
-text-transform: uppercase;
-padding: 43px 20px;
-transition: all .3s;
+.menu__link {
+    text-transform: uppercase;
+    padding: 43px 20px;
+    transition: all .3s;
 }
 
-.menu__link:hover{
+.menu__link:hover {
     background-color: #131313;
     color: #fff;
 }
 
-.bike{
+.bike {
     padding: 100px 150px;
 }
-.bike__inner{
+
+.bike__inner {
     display: flex;
     justify-content: space-between;
 }
-.bike__column-slider{
+
+.bike__column-slider {
     flex-basis: 630px;
     margin-left: 30px;
     max-width: 630px;
 }
 
-.bike__title{
+.bike__title {
     font-weight: 700;
     font-size: 50px;
     line-height: 77px;
     margin: 0 5px;
 }
 
-.bike__subtitle{
+.bike__subtitle {
     margin: 0 60px;
     font-size: 20px;
     line-height: 39px;
     color: #6f6f6f;
     font-weight: 400;
 }
-.bike__text{
+
+.bike__text {
     max-width: 400px;
     margin-bottom: 20px;
 }
-.bike__link{
+
+.bike__link {
     margin-top: 80px;
     display: inline-block;
     background-color: #131313;
@@ -99,18 +112,20 @@ transition: all .3s;
     letter-spacing: 1.1em;
 }
 
-.bike-slider .slick-dots{
+.bike-slider .slick-dots {
     right: 0;
     top: 50px;
 }
-.slick-dots{
+
+.slick-dots {
     position: absolute;
 }
 
-.slick-dots li + li{
+.slick-dots li+li {
     padding-top: 10px;
 }
-.slick-dots button{
+
+.slick-dots button {
     font-size: 0;
     padding: 0;
     border: none;
@@ -121,25 +136,27 @@ transition: all .3s;
     cursor: pointer;
     transition: all .3s;
 }
+
 .slick-dots button :hover,
-.slick-active button{
+.slick-active button {
     background-color: #ff4040;
 }
 
-.bike__list{
+.bike__list {
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 
 }
-.bike__list-item{
+
+.bike__list-item {
     font-weight: 700;
     text-transform: uppercase;
     min-width: 160px;
     text-align: center;
 }
 
-.bike__list-item span{
+.bike__list-item span {
     display: block;
     line-height: 15px;
     font-weight: 400;
@@ -148,69 +165,73 @@ transition: all .3s;
     text-transform: lowercase;
 }
 
-.info{
+.info {
     margin-bottom: 150px;
 
 }
-.info__inner{
+
+.info__inner {
     display: flex;
 }
-.info__img{
+
+.info__img {
     margin-right: 60px;
     flex-basis: 570px;
     object-fit: cover;
 }
-.info__list{
+
+.info__list {
     flex-basis: 490px;
 }
 
-.info__item + .info__item{
+.info__item+.info__item {
     padding-top: 50px;
 }
 
-.info__item-title{
-    
+.info__item-title {
+
     font-size: 16px;
     line-height: 19px;
     text-transform: uppercase;
     margin: 0 10px;
 }
-.info__item-text{
+
+.info__item-text {
     min-width: 450px;
     text-transform: capitalize;
     font-size: 14px;
 }
 
-.characteristics{
+.characteristics {
     margin-bottom: 150px;
 }
 
-.characteristics__head{
+.characteristics__head {
     margin-bottom: 40px;
     font-style: 16px;
     line-height: 19px;
     text-transform: uppercase;
 }
 
-.characteristics__inner{
+.characteristics__inner {
     display: flex;
 }
 
-.characteristics__img{
+.characteristics__img {
     align-self: center;
 }
 
-.characteristics__items{
+.characteristics__items {
     flex-basis: 570px;
     margin-right: 60px;
 }
 
-.characteristics__list + .characteristics__list{
+.characteristics__list+.characteristics__list {
     padding-top: 30px;
 
 }
 
-.characteristics__title{
+.characteristics__title {
     padding: 2px 3px;
     text-transform: uppercase;
     background-color: #131313;
@@ -218,28 +239,168 @@ transition: all .3s;
     font-weight: 700;
 }
 
-.characteristics__line{
+.characteristics__line {
     display: flex;
     padding-top: 5px;
 }
-.characteristics__name{
+
+.characteristics__name {
     flex-basis: 285px;
     padding-right: 20px;
 }
 
-.characteristics__descr{
+.characteristics__descr {
     flex-basis: 285px;
 }
 
-.slider{
+.slider {
     margin-bottom: 50px;
 }
 
-.slider__item .slick-dots{
+.slider__item .slick-dots {
     top: 0;
     left: 0;
 }
 
-.slider__item{
+.slider__item {
     padding: 50px;
+}
+
+.price {
+    margin-bottom: 100px;
+}
+
+.price__inner {
+    position: relative;
+}
+
+.form {
+    max-width: 420px;
+}
+
+.form__title {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.form__text {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+
+.form__name,
+.form__phone {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.form__name::placeholder,
+.form__phone::placeholder,
+.form__input-text {
+    color: #6f6f6f;
+    opacity: 0.5;
+}
+
+.form__input-text {
+    margin-bottom: 10px;
+}
+
+.form__bike-price {
+    font-size: 32px;
+    line-height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid #ff4040;
+    transform: translateX(-50%);
+
+}
+
+.form__bike-price::after {
+    position: absolute;
+    content: "";
+    width: 220px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #ff4040;
+    top: 12px;
+    left: 0;
+}
+
+
+.form__label-box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+
+.form__bike {
+    display: none;
+}
+
+.form__label-style {
+    border-radius: 30px;
+    width: 80px;
+    height: 12px;
+}
+
+.form__radio-style--grey {
+    background-color: #6f6f6f;
+}
+
+.form__radio-style--white {
+    background-color: #fff;
+}
+
+.form__radio-style--orange {
+    background-color: red;
+}
+
+.form__label+.form__label {
+    margin-left: 23px;
+}
+
+/*.form__input-radio{
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(0 0 0);
+}*/
+
+.form__radio-input:checked+.form__bike {
+    display: block;
+}
+
+.form__btn {
+    background-color: #131313;
+    padding: 28px 81px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    cursor: pointer;
+}
+
+.form__input-radio:checked+.form__bike {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
 }

@@ -45,6 +45,10 @@ p {
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .menu__list {
     display: flex;
 }
@@ -66,7 +70,7 @@ p {
 }
 
 .bike {
-    padding: 100px 150px;
+    padding: 100px 0px;
 }
 
 .bike__inner {
@@ -110,6 +114,11 @@ p {
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 1.1em;
+    transition: all .3s;
+}
+
+.bike__link:hover {
+    background-color: #ff4040;
 }
 
 .bike-slider .slick-dots {
@@ -166,7 +175,8 @@ p {
 }
 
 .info {
-    margin-bottom: 150px;
+    padding-top: 150px;
+    margin-bottom: 50px;
 
 }
 
@@ -203,6 +213,7 @@ p {
 }
 
 .characteristics {
+    padding-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -396,6 +407,11 @@ clip: rect(0 0 0);
     line-height: 24px;
     letter-spacing: 1.1em;
     cursor: pointer;
+    transition: all .3s;
+}
+
+.form__btn:hover{
+    background-color: #ff4040;
 }
 
 .form__input-radio:checked+.form__bike {
@@ -403,4 +419,46 @@ clip: rect(0 0 0);
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.footer {
+    background-color: #131313;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.footer__link {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__social-link+.footer__social-link {
+    margin-left: 26px;
+}
+
+
+.footer__contacts {
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.footer__contats-link {
+    display: flex;
+    align-items: center;
+}
+
+.footer__contats-link+.footer__contats-link {
+    margin-top: 10px;
+}
+
+.footer__contacts-img {
+    margin-right: 10px;
 }
